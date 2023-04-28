@@ -1,0 +1,27 @@
+{
+    "name": "luisafischer157/birds",
+    "description": "dads",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Luisafischer157\\Birds\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luisa Fischer",
+            "email": "lfischer@schueler.hakzell.at"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:perasser/bird-counting.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "perasser/bird-counting": "v1.1.0"
+    }
+}
